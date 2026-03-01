@@ -12,6 +12,6 @@ def play_game():
     if guess == secret:
         print("Correct! You guessed the number!")
     else:
-        print("Wrong! The correct number was {secret}.")
+        print(f"Wrong! The correct number was {secret}.")
 
 play_game()
