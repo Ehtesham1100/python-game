@@ -1,12 +1,12 @@
 # I acknowledge the use of Microsoft Copilot (version GPT-4, Microsoft, https://copilot.microsoft.com/) to create the code in this file
-
+# Small improvement for to show merge
 import tkinter as tk
 import random
 def check_guess():
     try:
         guess = int(entry.get())
         if guess == secret:
-            result_label.config(text="Correct! You guessed the number")
+            result_label.config(text="Correct! Well done, You guessed the number")
         else:
             result_label.config(text=f"Wrong! The correct number was {secret}.")
     except ValueError:
